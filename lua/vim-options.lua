@@ -23,6 +23,7 @@ opt.colorcolumn = "100"
 opt.signcolumn = "yes"
 opt.scrolloff = 10
 opt.completeopt = "menuone,noinsert,noselect"
+opt.conceallevel = 2
 
 -- Behaviour
 opt.hidden = true
