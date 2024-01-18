@@ -18,6 +18,7 @@ opt.hlsearch = false
 
 -- Appeaance
 opt.relativenumber = true
+opt.number = true
 opt.termguicolors = true
 opt.colorcolumn = "100"
 opt.signcolumn = "yes"
