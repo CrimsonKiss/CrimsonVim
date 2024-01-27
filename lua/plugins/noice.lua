@@ -2,7 +2,18 @@ return {
 	"folke/noice.nvim",
 	event = "VeryLazy",
 	opts = {
-		-- add any options here
+		cmdline = {
+        format = {
+          search_down = {
+            -- view = "cmdline",
+            icon = "󰍉 ",
+          },
+          search_up = {
+            -- view = "cmdline",
+            icon = "󰍉 ",
+          },
+        },
+      },
 	},
 	dependencies = {
 		"MunifTanjim/nui.nvim",
